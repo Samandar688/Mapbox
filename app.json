@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -20,10 +19,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.yourname.mapboxtest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZG9taW5hbmQiLCJhIjoiY21rMHk4NDJ1MDA2czNrc2JnNHY1cGhwcSJ9.CmjIPgS5wg-qGJ3VjxGHuA"
+        }
+      ]
+    ]
   }
 }
