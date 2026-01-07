@@ -31,7 +31,18 @@
           "RNMapboxMapsImpl": "mapbox",
           "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZG9taW5hbmQiLCJhIjoiY21rMHk4NDJ1MDA2czNrc2JnNHY1cGhwcSJ9.CmjIPgS5wg-qGJ3VjxGHuA"
         }
+      ],
+      [
+        "@youssefhenna/expo-mapbox-navigation",
+        {
+          "accessToken": "pk.eyJ1IjoiZG9taW5hbmQiLCJhIjoiY21qc2N1OGQ5MGhpOTNjcXdzaXJ6cjdxbyJ9.MzO3-7XIy1HPd7jC0ka07g"
+        }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "424cd1bd-872f-47db-b966-4cd34a41b0f2"
+      }
+    }
   }
 }
